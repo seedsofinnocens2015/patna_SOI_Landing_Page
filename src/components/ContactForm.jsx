@@ -51,7 +51,7 @@ const ContactForm = ({
       const submissionPayload = { ...formData, source: normalizedSource };
 
       const resp = await fetch(
-        'https://soi-landing-page-backend.vercel.app/api/leadsquared/lead',
+        'https://soi.seedsofinnocens.com/api/landing-pages',
         // 'http://localhost:4000/api/leadsquared/lead',
         {
           method: 'POST',
